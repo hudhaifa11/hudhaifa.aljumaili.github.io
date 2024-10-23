@@ -42,26 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.Onderwijsaanbod.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.Uitbreiding personal homepage.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.contact assignment.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.homepage.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.voorbeeld headings.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hudha/WebstormProjects/Web Development 1/Labo 4/Opdracht 5/Images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Onderwijsaanbod.html.executor": "Run",
+    "JavaScript Debug.Uitbreiding personal homepage.html.executor": "Run",
+    "JavaScript Debug.contact assignment.html.executor": "Run",
+    "JavaScript Debug.homepage.html.executor": "Run",
+    "JavaScript Debug.voorbeeld headings.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/hudha/Documents/GitHub/hudhaifa.aljumaili.github.io",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hudha\WebstormProjects\Web Development 1\Labo 4\Opdracht 5\Images" />
@@ -98,7 +98,7 @@
       <workItem from="1729353469769" duration="170000" />
       <workItem from="1729354590686" duration="1023000" />
       <workItem from="1729670100243" duration="1824000" />
-      <workItem from="1729672484054" duration="217000" />
+      <workItem from="1729672483873" duration="392000" />
     </task>
     <task id="LOCAL-00001" summary="b">
       <option name="closed" value="true" />
