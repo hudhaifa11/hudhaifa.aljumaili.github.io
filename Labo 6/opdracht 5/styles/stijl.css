@@ -1,0 +1,20 @@
+
+a.link-met-icoon {
+    display: inline-flex;                    /* Flex-container voor uitlijning */
+    align-items: center;                     /* Zorgt dat tekst en icoon mooi uitlijnen */
+    text-decoration: none;                   /* Verwijdert standaard onderlijning */
+    color: #0056b3;                          /* Standaard kleur voor de link */
+    padding-left: 20px;                      /* Ruimte voor het icoontje links */
+    background-image: url('../Images/icon.png');       /* Path naar het icoon, bijvoorbeeld een pijltje of ketting-symbool */
+    background-repeat: no-repeat;            /* Voorkomt herhaling van het icoon */
+    background-position: left center;        /* Plek van icoon links en gecentreerd */
+    background-size: 16px 16px;              /* Maakt het icoontje klein en overzichtelijk */
+    transition: color 0.3s ease;             /* Zachte overgang bij hover */
+}
+
+/* Stijl bij hover */
+a.link-met-icoon:hover {
+    color: #003580;                          /* Donkerdere kleur bij hover */
+    text-decoration: underline;              /* Onderlijning voor duidelijkere interactie */
+}
+

@@ -1,0 +1,41 @@
+/* Algemene stijl voor de lijst */
+ul.checklist {
+    list-style-type: none; /* Verwijder standaard lijststijl */
+    padding: 0;            /* Verwijder padding */
+    font-family: Arial, sans-serif; /* Kies een nette font */
+}
+
+/* Stijl voor de items in de checklist */
+ul.checklist li {
+    padding-left: 24px; /* Ruimte voor het icoontje */
+    position: relative; /* Om het icoontje boven de tekst te plaatsen */
+    font-size: 18px;    /* Maak de tekst iets groter */
+}
+
+/* Stijl voor de items die zijn aangevinkt (met de "checked" klasse) */
+ul.checklist li.checked::before {
+    content: ''; /* Zorg ervoor dat er iets wordt weergegeven */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Zorg ervoor dat het icoontje verticaal gecentreerd is */
+    width: 16px; /* Grootte van het vinkje */
+    height: 16px; /* Grootte van het vinkje */
+    background-image: url('../Images/icong.png'); /* Het vinkje-icoon */
+    background-size: contain; /* Zorg ervoor dat het icoon zich goed schaalt */
+    background-repeat: no-repeat;
+}
+
+/* Stijl voor de items die niet zijn aangevinkt (zonder de "checked" klasse) */
+ul.checklist li:not(.checked)::before {
+    content: ''; /* Zorg ervoor dat er iets wordt weergegeven */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Zorg ervoor dat het icoontje verticaal gecentreerd is */
+    width: 16px; /* Grootte van het lege vakje */
+    height: 16px; /* Grootte van het lege vakje */
+    background-image: url('../Images/empty box.png'); /* Leeg vakje icoon */
+    background-size: contain; /* Zorg ervoor dat het icoon zich goed schaalt */
+    background-repeat: no-repeat;
+}
