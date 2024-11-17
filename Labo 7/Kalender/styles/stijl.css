@@ -1,0 +1,50 @@
+/* Algemene styling voor de tabel */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+caption {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styling voor de header (dagen van de week) */
+thead th {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Basis styling voor de cellen */
+tbody td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Dagen van andere maanden */
+.other-month {
+    background-color: #e0e0e0;
+    color: #a0a0a0;
+}
+
+/* Weekendkleuren: gebruik zonder speciale klasse */
+tbody td:first-child, /* Zondag */
+tbody td:last-child { /* Zaterdag */
+    background-color: rgb(255, 220, 220);
+}
+
+/* Speciale achtergrondkleur voor de 16e dag */
+tbody td[data-day="16"] {
+    background-color: rgb(250, 120, 120);
+    color: white;
+    font-weight: bold;
+}
